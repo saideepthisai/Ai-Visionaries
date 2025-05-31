@@ -1,0 +1,1001 @@
+patient_id,symptoms,diagnosis,drug_prescribed,route,outcome
+1,"pain, swelling, skin redness",cellulitis,clindamycin,IV,improved
+2,"chest pain, cough",pneumonia,ceftriaxone,oral,improved
+3,"chest pain, cough, shortness of breath, fatigue",pneumonia,ceftriaxone,oral,improved
+4,"warmth, swelling, pain",cellulitis,dicloxacillin,IV,worsened
+5,"rapid breathing, fever, chills, high heart rate",sepsis,vancomycin + cefepime,oral,no change
+6,"pain, fever",cellulitis,dicloxacillin,IV,improved
+7,"shortness of breath, fatigue, cough, fever",pneumonia,ceftriaxone,IV,worsened
+8,"swelling, pain",cellulitis,cephalexin,IV,improved
+9,"fever, warmth",cellulitis,cephalexin,IV,improved
+10,"rapid breathing, chills, fever, confusion",sepsis,meropenem,IV,worsened
+11,"nausea, sensitivity to light, fever, headache",meningitis,ceftriaxone + vancomycin,IV,no change
+12,"nausea, headache, stiff neck, fever",meningitis,meropenem,oral,no change
+13,"fever, swelling, skin redness",cellulitis,cephalexin,IV,improved
+14,"stiff neck, fever, nausea, headache",meningitis,ampicillin,IV,improved
+15,"low blood pressure, chills, confusion, fever",bacteremia,piperacillin-tazobactam,oral,improved
+16,"fever, low blood pressure, weakness, chills",bacteremia,ceftriaxone,IV,improved
+17,"rapid breathing, confusion, low blood pressure, high heart rate",sepsis,piperacillin-tazobactam,oral,improved
+18,"lower abdominal pain, back pain",UTI,trimethoprim-sulfamethoxazole,IV,no change
+19,"chest pain, shortness of breath",pneumonia,azithromycin,IV,fatal
+20,"shortness of breath, chest pain, fever, fatigue",pneumonia,azithromycin,IV,improved
+21,"warmth, skin redness, swelling",cellulitis,clindamycin,oral,improved
+22,"fever, frequent urination",UTI,nitrofurantoin,oral,improved
+23,"lower abdominal pain, painful urination, back pain",UTI,ciprofloxacin,oral,improved
+24,"pain, warmth, skin redness, swelling",cellulitis,clindamycin,IV,improved
+25,"fatigue, fever, chest pain, shortness of breath",pneumonia,ceftriaxone,oral,no change
+26,"cough, fever",pneumonia,ceftriaxone,IV,improved
+27,"lower abdominal pain, fever, back pain",UTI,nitrofurantoin,IV,improved
+28,"headache, stiff neck",meningitis,ceftriaxone + vancomycin,IV,fatal
+29,"cough, chest pain, fatigue",pneumonia,azithromycin,IV,fatal
+30,"fever, back pain, lower abdominal pain, painful urination",UTI,nitrofurantoin,IV,fatal
+31,"confusion, fever, weakness, chills",bacteremia,vancomycin,IV,improved
+32,"fever, frequent urination, back pain, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+33,"fever, confusion, chills",sepsis,piperacillin-tazobactam,IV,improved
+34,"confusion, low blood pressure, high heart rate",sepsis,piperacillin-tazobactam,IV,no change
+35,"fever, chills, confusion",bacteremia,ceftriaxone,IV,improved
+36,"fever, skin redness, pain, swelling",cellulitis,dicloxacillin,oral,no change
+37,"weakness, chills, confusion",bacteremia,vancomycin,IV,improved
+38,"chest pain, cough, shortness of breath, fatigue",pneumonia,ceftriaxone,oral,worsened
+39,"shortness of breath, chest pain, cough",pneumonia,ceftriaxone,oral,no change
+40,"nausea, headache, sensitivity to light",meningitis,ceftriaxone + vancomycin,oral,improved
+41,"fever, swelling, pain, warmth",cellulitis,dicloxacillin,oral,improved
+42,"back pain, lower abdominal pain, frequent urination",UTI,nitrofurantoin,IV,improved
+43,"chest pain, shortness of breath",pneumonia,levofloxacin,IV,no change
+44,"fever, chills, confusion, weakness",bacteremia,piperacillin-tazobactam,oral,improved
+45,"shortness of breath, fatigue",pneumonia,levofloxacin,IV,improved
+46,"stiff neck, nausea, sensitivity to light, headache",meningitis,ampicillin,IV,no change
+47,"swelling, skin redness",cellulitis,dicloxacillin,IV,no change
+48,"back pain, frequent urination, lower abdominal pain",UTI,ciprofloxacin,oral,improved
+49,"fever, headache, sensitivity to light, nausea",meningitis,ampicillin,oral,no change
+50,"shortness of breath, cough",pneumonia,ceftriaxone,IV,improved
+51,"headache, stiff neck",meningitis,ampicillin,IV,improved
+52,"cough, fatigue, fever",pneumonia,ceftriaxone,oral,improved
+53,"chest pain, cough",pneumonia,levofloxacin,IV,improved
+54,"chest pain, cough, shortness of breath",pneumonia,levofloxacin,oral,improved
+55,"cough, fatigue",pneumonia,ceftriaxone,oral,improved
+56,"chills, confusion, fever",bacteremia,ceftriaxone,IV,improved
+57,"nausea, sensitivity to light, headache, stiff neck",meningitis,meropenem,IV,improved
+58,"rapid breathing, fever",sepsis,meropenem,IV,improved
+59,"pain, warmth, swelling, skin redness",cellulitis,clindamycin,oral,improved
+60,"rapid breathing, low blood pressure, high heart rate, confusion",sepsis,piperacillin-tazobactam,IV,improved
+61,"back pain, painful urination, frequent urination",UTI,ciprofloxacin,IV,no change
+62,"confusion, fever",bacteremia,vancomycin,IV,improved
+63,"fatigue, chest pain, fever",pneumonia,ceftriaxone,IV,fatal
+64,"back pain, painful urination, lower abdominal pain, frequent urination",UTI,trimethoprim-sulfamethoxazole,oral,no change
+65,"fatigue, fever, cough",pneumonia,levofloxacin,IV,no change
+66,"lower abdominal pain, fever, frequent urination, back pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+67,"lower abdominal pain, back pain",UTI,ciprofloxacin,IV,improved
+68,"fever, painful urination, back pain, frequent urination",UTI,nitrofurantoin,oral,improved
+69,"fever, chills",bacteremia,piperacillin-tazobactam,IV,improved
+70,"shortness of breath, fever, cough",pneumonia,azithromycin,oral,worsened
+71,"cough, shortness of breath, fever, fatigue",pneumonia,azithromycin,IV,improved
+72,"frequent urination, fever, back pain, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,oral,worsened
+73,"swelling, skin redness, warmth, fever",cellulitis,cephalexin,oral,improved
+74,"confusion, chills, fever, weakness",bacteremia,ceftriaxone,oral,improved
+75,"lower abdominal pain, fever, frequent urination",UTI,nitrofurantoin,oral,worsened
+76,"fever, headache, stiff neck",meningitis,meropenem,IV,improved
+77,"confusion, weakness, low blood pressure, chills",bacteremia,vancomycin,oral,improved
+78,"back pain, painful urination, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,oral,improved
+79,"fever, high heart rate",sepsis,piperacillin-tazobactam,IV,improved
+80,"weakness, confusion, low blood pressure",bacteremia,vancomycin,oral,worsened
+81,"stiff neck, sensitivity to light",meningitis,ceftriaxone + vancomycin,oral,improved
+82,"warmth, fever, swelling",cellulitis,cephalexin,IV,improved
+83,"headache, stiff neck, sensitivity to light",meningitis,ampicillin,IV,worsened
+84,"fever, sensitivity to light, stiff neck",meningitis,ceftriaxone + vancomycin,oral,no change
+85,"chest pain, fatigue, shortness of breath, fever",pneumonia,azithromycin,oral,improved
+86,"low blood pressure, fever, chills",sepsis,piperacillin-tazobactam,oral,improved
+87,"lower abdominal pain, fever, painful urination",UTI,ciprofloxacin,oral,worsened
+88,"weakness, low blood pressure",bacteremia,vancomycin,IV,improved
+89,"fever, headache, stiff neck, sensitivity to light",meningitis,ampicillin,oral,improved
+90,"weakness, chills, confusion",bacteremia,vancomycin,oral,no change
+91,"cough, chest pain, fatigue, shortness of breath",pneumonia,azithromycin,IV,improved
+92,"fever, cough, chest pain, shortness of breath",pneumonia,ceftriaxone,IV,improved
+93,"chills, low blood pressure, fever",bacteremia,ceftriaxone,oral,no change
+94,"fever, low blood pressure, chills",bacteremia,vancomycin,IV,improved
+95,"weakness, fever, confusion, low blood pressure",bacteremia,piperacillin-tazobactam,oral,improved
+96,"headache, nausea, sensitivity to light, stiff neck",meningitis,meropenem,oral,improved
+97,"weakness, low blood pressure, fever, confusion",bacteremia,vancomycin,oral,improved
+98,"stiff neck, fever",meningitis,meropenem,oral,improved
+99,"fever, chills, confusion, low blood pressure",bacteremia,ceftriaxone,IV,improved
+100,"painful urination, back pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+101,"fever, skin redness",cellulitis,cephalexin,oral,worsened
+102,"fatigue, fever, cough, chest pain",pneumonia,ceftriaxone,IV,improved
+103,"back pain, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+104,"chills, low blood pressure, rapid breathing, high heart rate",sepsis,vancomycin + cefepime,oral,no change
+105,"swelling, pain",cellulitis,cephalexin,oral,improved
+106,"chills, confusion, low blood pressure, weakness",bacteremia,piperacillin-tazobactam,oral,improved
+107,"fever, skin redness, pain, swelling",cellulitis,cephalexin,oral,improved
+108,"chills, fever, confusion",bacteremia,ceftriaxone,IV,improved
+109,"pain, skin redness, swelling, fever",cellulitis,cephalexin,IV,fatal
+110,"fever, cough",pneumonia,ceftriaxone,oral,improved
+111,"high heart rate, fever, rapid breathing",sepsis,piperacillin-tazobactam,oral,worsened
+112,"pain, skin redness",cellulitis,clindamycin,oral,worsened
+113,"cough, fever, shortness of breath",pneumonia,levofloxacin,IV,improved
+114,"shortness of breath, fever",pneumonia,ceftriaxone,oral,no change
+115,"fever, lower abdominal pain",UTI,nitrofurantoin,oral,improved
+116,"low blood pressure, confusion",bacteremia,ceftriaxone,IV,improved
+117,"fever, frequent urination",UTI,trimethoprim-sulfamethoxazole,IV,worsened
+118,"nausea, stiff neck",meningitis,meropenem,IV,no change
+119,"warmth, swelling, skin redness, fever",cellulitis,dicloxacillin,oral,no change
+120,"low blood pressure, fever, weakness, confusion",bacteremia,vancomycin,IV,no change
+121,"fever, low blood pressure, rapid breathing",sepsis,meropenem,oral,improved
+122,"swelling, warmth",cellulitis,clindamycin,oral,worsened
+123,"fever, cough, chest pain, shortness of breath",pneumonia,ceftriaxone,IV,improved
+124,"fatigue, fever, cough",pneumonia,ceftriaxone,IV,worsened
+125,"warmth, pain",cellulitis,clindamycin,oral,improved
+126,"frequent urination, lower abdominal pain",UTI,nitrofurantoin,oral,improved
+127,"pain, skin redness",cellulitis,cephalexin,oral,improved
+128,"fever, back pain",UTI,nitrofurantoin,IV,improved
+129,"chills, low blood pressure, fever, rapid breathing",sepsis,vancomycin + cefepime,IV,no change
+130,"fever, swelling",cellulitis,clindamycin,oral,improved
+131,"headache, sensitivity to light, fever",meningitis,ceftriaxone + vancomycin,oral,no change
+132,"fever, stiff neck, sensitivity to light, nausea",meningitis,ceftriaxone + vancomycin,oral,improved
+133,"sensitivity to light, nausea, stiff neck, fever",meningitis,meropenem,oral,no change
+134,"fever, skin redness, pain",cellulitis,clindamycin,oral,improved
+135,"fever, warmth, skin redness",cellulitis,clindamycin,IV,fatal
+136,"high heart rate, low blood pressure, chills",sepsis,piperacillin-tazobactam,IV,worsened
+137,"fever, low blood pressure, confusion",sepsis,vancomycin + cefepime,oral,improved
+138,"high heart rate, confusion, fever",sepsis,meropenem,oral,improved
+139,"fever, frequent urination",UTI,ciprofloxacin,oral,improved
+140,"cough, fatigue, shortness of breath",pneumonia,ceftriaxone,oral,worsened
+141,"fever, rapid breathing, chills",sepsis,piperacillin-tazobactam,IV,improved
+142,"fatigue, shortness of breath, fever, cough",pneumonia,levofloxacin,oral,fatal
+143,"fever, chills, high heart rate, confusion",sepsis,piperacillin-tazobactam,oral,worsened
+144,"fever, stiff neck, nausea",meningitis,ampicillin,oral,worsened
+145,"shortness of breath, cough, chest pain, fatigue",pneumonia,azithromycin,oral,no change
+146,"rapid breathing, high heart rate, confusion",sepsis,meropenem,IV,improved
+147,"chills, rapid breathing, low blood pressure, high heart rate",sepsis,vancomycin + cefepime,oral,improved
+148,"pain, swelling, warmth",cellulitis,dicloxacillin,IV,improved
+149,"low blood pressure, chills, weakness, fever",bacteremia,piperacillin-tazobactam,oral,improved
+150,"painful urination, back pain, frequent urination",UTI,nitrofurantoin,IV,improved
+151,"high heart rate, low blood pressure, confusion, fever",sepsis,vancomycin + cefepime,IV,no change
+152,"fever, confusion",sepsis,vancomycin + cefepime,oral,no change
+153,"high heart rate, fever, confusion",sepsis,piperacillin-tazobactam,IV,improved
+154,"rapid breathing, fever",sepsis,piperacillin-tazobactam,IV,improved
+155,"chills, low blood pressure, high heart rate, fever",sepsis,vancomycin + cefepime,IV,improved
+156,"cough, chest pain, shortness of breath",pneumonia,ceftriaxone,IV,no change
+157,"rapid breathing, low blood pressure, chills, high heart rate",sepsis,piperacillin-tazobactam,IV,worsened
+158,"fever, pain",cellulitis,cephalexin,oral,improved
+159,"weakness, chills, confusion, low blood pressure",bacteremia,vancomycin,oral,worsened
+160,"fever, warmth, skin redness",cellulitis,dicloxacillin,oral,improved
+161,"chest pain, cough, shortness of breath, fatigue",pneumonia,azithromycin,oral,no change
+162,"fatigue, shortness of breath",pneumonia,azithromycin,oral,improved
+163,"low blood pressure, rapid breathing",sepsis,vancomycin + cefepime,IV,worsened
+164,"cough, fatigue, fever, shortness of breath",pneumonia,levofloxacin,oral,no change
+165,"swelling, fever, skin redness",cellulitis,cephalexin,oral,fatal
+166,"fatigue, fever, cough",pneumonia,ceftriaxone,oral,improved
+167,"chills, low blood pressure, fever",bacteremia,piperacillin-tazobactam,oral,improved
+168,"rapid breathing, low blood pressure, chills",sepsis,meropenem,IV,improved
+169,"cough, shortness of breath, fatigue",pneumonia,levofloxacin,IV,improved
+170,"fever, pain, skin redness",cellulitis,cephalexin,IV,no change
+171,"weakness, fever, low blood pressure, confusion",bacteremia,vancomycin,oral,no change
+172,"painful urination, fever, frequent urination",UTI,nitrofurantoin,oral,no change
+173,"cough, fatigue, chest pain",pneumonia,levofloxacin,IV,improved
+174,"fever, pain",cellulitis,cephalexin,oral,improved
+175,"nausea, sensitivity to light",meningitis,ampicillin,oral,improved
+176,"warmth, skin redness, pain",cellulitis,dicloxacillin,oral,improved
+177,"swelling, warmth, pain",cellulitis,cephalexin,IV,improved
+178,"stiff neck, headache",meningitis,ampicillin,oral,fatal
+179,"headache, sensitivity to light, fever",meningitis,ceftriaxone + vancomycin,oral,improved
+180,"fever, fatigue",pneumonia,azithromycin,IV,no change
+181,"sensitivity to light, nausea, stiff neck",meningitis,ceftriaxone + vancomycin,IV,improved
+182,"lower abdominal pain, frequent urination, back pain",UTI,trimethoprim-sulfamethoxazole,oral,no change
+183,"lower abdominal pain, painful urination",UTI,ciprofloxacin,IV,improved
+184,"fever, back pain",UTI,ciprofloxacin,IV,improved
+185,"painful urination, back pain",UTI,ciprofloxacin,IV,improved
+186,"back pain, fever, painful urination",UTI,trimethoprim-sulfamethoxazole,IV,improved
+187,"chills, high heart rate",sepsis,meropenem,oral,improved
+188,"shortness of breath, fever, chest pain",pneumonia,levofloxacin,IV,improved
+189,"rapid breathing, chills, confusion",sepsis,meropenem,oral,worsened
+190,"chest pain, shortness of breath",pneumonia,levofloxacin,oral,improved
+191,"confusion, fever",bacteremia,piperacillin-tazobactam,oral,improved
+192,"skin redness, fever, swelling",cellulitis,dicloxacillin,IV,improved
+193,"lower abdominal pain, frequent urination, back pain, painful urination",UTI,trimethoprim-sulfamethoxazole,oral,improved
+194,"fever, chest pain, fatigue",pneumonia,azithromycin,IV,improved
+195,"chest pain, shortness of breath",pneumonia,ceftriaxone,IV,improved
+196,"fever, frequent urination",UTI,nitrofurantoin,oral,improved
+197,"pain, skin redness",cellulitis,dicloxacillin,oral,no change
+198,"fever, fatigue, cough",pneumonia,levofloxacin,oral,no change
+199,"shortness of breath, fever, fatigue, chest pain",pneumonia,azithromycin,oral,improved
+200,"chest pain, cough",pneumonia,ceftriaxone,oral,improved
+201,"swelling, warmth",cellulitis,dicloxacillin,oral,improved
+202,"chest pain, cough, shortness of breath, fatigue",pneumonia,ceftriaxone,IV,worsened
+203,"rapid breathing, low blood pressure",sepsis,meropenem,oral,worsened
+204,"high heart rate, rapid breathing, fever",sepsis,piperacillin-tazobactam,oral,no change
+205,"back pain, fever",UTI,nitrofurantoin,oral,worsened
+206,"fatigue, fever",pneumonia,levofloxacin,IV,improved
+207,"lower abdominal pain, frequent urination",UTI,ciprofloxacin,oral,no change
+208,"low blood pressure, chills, confusion",sepsis,piperacillin-tazobactam,IV,no change
+209,"frequent urination, painful urination",UTI,ciprofloxacin,oral,improved
+210,"confusion, low blood pressure, fever",sepsis,vancomycin + cefepime,IV,improved
+211,"low blood pressure, fever, confusion, chills",bacteremia,piperacillin-tazobactam,IV,improved
+212,"fever, low blood pressure, confusion",bacteremia,piperacillin-tazobactam,IV,improved
+213,"cough, fever, fatigue, shortness of breath",pneumonia,azithromycin,oral,worsened
+214,"sensitivity to light, fever, stiff neck",meningitis,meropenem,oral,no change
+215,"chills, fever, confusion, low blood pressure",bacteremia,piperacillin-tazobactam,IV,improved
+216,"stiff neck, fever",meningitis,ampicillin,oral,improved
+217,"fever, cough, chest pain",pneumonia,ceftriaxone,IV,fatal
+218,"cough, chest pain, shortness of breath, fatigue",pneumonia,azithromycin,oral,no change
+219,"chills, low blood pressure",bacteremia,vancomycin,oral,worsened
+220,"shortness of breath, fatigue, fever, chest pain",pneumonia,levofloxacin,IV,improved
+221,"fever, chills",bacteremia,vancomycin,IV,worsened
+222,"frequent urination, painful urination, back pain",UTI,ciprofloxacin,oral,improved
+223,"stiff neck, sensitivity to light, fever",meningitis,meropenem,IV,improved
+224,"cough, fever",pneumonia,azithromycin,oral,improved
+225,"high heart rate, confusion, low blood pressure",sepsis,meropenem,IV,no change
+226,"confusion, chills, low blood pressure, fever",bacteremia,vancomycin,oral,improved
+227,"fever, shortness of breath, chest pain",pneumonia,ceftriaxone,oral,improved
+228,"cough, fatigue",pneumonia,azithromycin,IV,worsened
+229,"high heart rate, low blood pressure, chills, rapid breathing",sepsis,piperacillin-tazobactam,IV,improved
+230,"fatigue, fever",pneumonia,levofloxacin,oral,no change
+231,"fatigue, cough, shortness of breath, chest pain",pneumonia,ceftriaxone,IV,improved
+232,"swelling, warmth, pain",cellulitis,cephalexin,IV,no change
+233,"painful urination, back pain, fever",UTI,trimethoprim-sulfamethoxazole,IV,no change
+234,"stiff neck, sensitivity to light, nausea",meningitis,ampicillin,oral,improved
+235,"confusion, fever, weakness, low blood pressure",bacteremia,piperacillin-tazobactam,IV,improved
+236,"fever, rapid breathing, chills, low blood pressure",sepsis,meropenem,oral,no change
+237,"painful urination, lower abdominal pain, back pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+238,"shortness of breath, fatigue",pneumonia,azithromycin,oral,no change
+239,"fever, warmth, skin redness",cellulitis,cephalexin,IV,improved
+240,"weakness, fever",bacteremia,piperacillin-tazobactam,IV,worsened
+241,"swelling, skin redness",cellulitis,cephalexin,IV,worsened
+242,"stiff neck, sensitivity to light, headache",meningitis,meropenem,oral,improved
+243,"fever, high heart rate",sepsis,meropenem,IV,improved
+244,"fever, painful urination, lower abdominal pain, frequent urination",UTI,trimethoprim-sulfamethoxazole,oral,fatal
+245,"weakness, chills, confusion, fever",bacteremia,ceftriaxone,IV,fatal
+246,"sensitivity to light, headache, fever, stiff neck",meningitis,ampicillin,IV,worsened
+247,"shortness of breath, fever, fatigue, chest pain",pneumonia,ceftriaxone,oral,worsened
+248,"fever, sensitivity to light",meningitis,ampicillin,oral,worsened
+249,"cough, chest pain, fever, fatigue",pneumonia,ceftriaxone,oral,improved
+250,"pain, warmth, swelling, fever",cellulitis,clindamycin,oral,worsened
+251,"painful urination, lower abdominal pain, frequent urination, fever",UTI,nitrofurantoin,oral,improved
+252,"low blood pressure, fever, chills, weakness",bacteremia,ceftriaxone,oral,improved
+253,"weakness, fever, low blood pressure, chills",bacteremia,ceftriaxone,IV,improved
+254,"fever, sensitivity to light, stiff neck",meningitis,meropenem,oral,improved
+255,"nausea, sensitivity to light, headache, fever",meningitis,ceftriaxone + vancomycin,IV,worsened
+256,"chills, fever, weakness, confusion",bacteremia,ceftriaxone,IV,worsened
+257,"chest pain, shortness of breath",pneumonia,ceftriaxone,oral,improved
+258,"fatigue, cough",pneumonia,levofloxacin,oral,worsened
+259,"frequent urination, back pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+260,"pain, warmth",cellulitis,dicloxacillin,oral,worsened
+261,"rapid breathing, high heart rate",sepsis,piperacillin-tazobactam,IV,no change
+262,"chills, rapid breathing, fever, low blood pressure",sepsis,piperacillin-tazobactam,IV,improved
+263,"pain, skin redness, warmth, swelling",cellulitis,cephalexin,IV,worsened
+264,"low blood pressure, chills, rapid breathing, confusion",sepsis,piperacillin-tazobactam,oral,improved
+265,"fever, painful urination",UTI,ciprofloxacin,IV,improved
+266,"painful urination, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,oral,improved
+267,"high heart rate, low blood pressure, rapid breathing, fever",sepsis,meropenem,IV,fatal
+268,"chest pain, cough, fever",pneumonia,ceftriaxone,oral,no change
+269,"swelling, fever",cellulitis,clindamycin,IV,improved
+270,"low blood pressure, chills",bacteremia,ceftriaxone,IV,improved
+271,"back pain, painful urination",UTI,nitrofurantoin,oral,no change
+272,"frequent urination, fever, painful urination, back pain",UTI,nitrofurantoin,IV,improved
+273,"nausea, stiff neck, sensitivity to light, headache",meningitis,meropenem,oral,improved
+274,"frequent urination, painful urination, fever",UTI,nitrofurantoin,oral,improved
+275,"rapid breathing, fever, chills",sepsis,meropenem,oral,improved
+276,"chills, fever, low blood pressure",bacteremia,piperacillin-tazobactam,oral,improved
+277,"back pain, painful urination, fever",UTI,ciprofloxacin,IV,no change
+278,"low blood pressure, rapid breathing, high heart rate, chills",sepsis,vancomycin + cefepime,oral,improved
+279,"shortness of breath, fever",pneumonia,azithromycin,oral,improved
+280,"fatigue, fever, shortness of breath, chest pain",pneumonia,ceftriaxone,IV,worsened
+281,"high heart rate, fever, low blood pressure",sepsis,piperacillin-tazobactam,IV,improved
+282,"nausea, sensitivity to light",meningitis,meropenem,IV,improved
+283,"pain, swelling, warmth, skin redness",cellulitis,dicloxacillin,IV,improved
+284,"fever, weakness",bacteremia,ceftriaxone,IV,improved
+285,"confusion, low blood pressure, chills",bacteremia,vancomycin,IV,improved
+286,"fever, back pain, lower abdominal pain, frequent urination",UTI,ciprofloxacin,oral,no change
+287,"fever, low blood pressure",bacteremia,vancomycin,oral,improved
+288,"headache, fever, sensitivity to light, stiff neck",meningitis,ceftriaxone + vancomycin,oral,improved
+289,"sensitivity to light, fever, nausea, stiff neck",meningitis,ampicillin,oral,improved
+290,"fever, swelling, skin redness",cellulitis,dicloxacillin,IV,improved
+291,"stiff neck, sensitivity to light, headache",meningitis,ceftriaxone + vancomycin,IV,worsened
+292,"fever, headache, stiff neck",meningitis,ampicillin,IV,improved
+293,"stiff neck, nausea, sensitivity to light, fever",meningitis,meropenem,IV,improved
+294,"frequent urination, lower abdominal pain",UTI,ciprofloxacin,IV,fatal
+295,"nausea, stiff neck, sensitivity to light",meningitis,ceftriaxone + vancomycin,IV,improved
+296,"nausea, sensitivity to light, headache, fever",meningitis,meropenem,oral,worsened
+297,"fever, chills, confusion",bacteremia,vancomycin,IV,fatal
+298,"fever, back pain, frequent urination",UTI,ciprofloxacin,oral,no change
+299,"pain, skin redness, swelling",cellulitis,cephalexin,IV,improved
+300,"shortness of breath, cough, fatigue",pneumonia,azithromycin,oral,improved
+301,"chills, confusion",bacteremia,piperacillin-tazobactam,oral,improved
+302,"skin redness, pain",cellulitis,cephalexin,IV,improved
+303,"chills, fever, confusion, rapid breathing",sepsis,piperacillin-tazobactam,oral,improved
+304,"shortness of breath, chest pain, fever",pneumonia,ceftriaxone,IV,improved
+305,"fever, pain, swelling",cellulitis,clindamycin,IV,fatal
+306,"fever, low blood pressure, confusion",bacteremia,piperacillin-tazobactam,IV,worsened
+307,"rapid breathing, fever, confusion",sepsis,vancomycin + cefepime,IV,worsened
+308,"high heart rate, chills, rapid breathing, low blood pressure",sepsis,meropenem,IV,improved
+309,"back pain, frequent urination",UTI,nitrofurantoin,IV,improved
+310,"confusion, chills, fever, low blood pressure",bacteremia,ceftriaxone,IV,no change
+311,"low blood pressure, fever, weakness, confusion",bacteremia,vancomycin,IV,improved
+312,"confusion, weakness",bacteremia,vancomycin,oral,no change
+313,"frequent urination, painful urination",UTI,ciprofloxacin,oral,no change
+314,"low blood pressure, high heart rate",sepsis,piperacillin-tazobactam,IV,improved
+315,"low blood pressure, confusion, fever, chills",bacteremia,piperacillin-tazobactam,oral,improved
+316,"chest pain, fatigue, shortness of breath",pneumonia,levofloxacin,oral,worsened
+317,"chest pain, fever",pneumonia,azithromycin,oral,improved
+318,"frequent urination, fever, painful urination",UTI,trimethoprim-sulfamethoxazole,IV,improved
+319,"rapid breathing, fever, chills, confusion",sepsis,vancomycin + cefepime,IV,no change
+320,"shortness of breath, cough, fatigue, chest pain",pneumonia,ceftriaxone,IV,no change
+321,"fever, chills, rapid breathing, high heart rate",sepsis,meropenem,IV,no change
+322,"headache, stiff neck",meningitis,ceftriaxone + vancomycin,oral,improved
+323,"fever, shortness of breath, chest pain",pneumonia,azithromycin,IV,worsened
+324,"fatigue, fever, shortness of breath, chest pain",pneumonia,levofloxacin,IV,no change
+325,"chills, low blood pressure, confusion, weakness",bacteremia,piperacillin-tazobactam,oral,worsened
+326,"nausea, headache",meningitis,meropenem,oral,improved
+327,"fever, headache",meningitis,meropenem,IV,improved
+328,"headache, fever, sensitivity to light, stiff neck",meningitis,ceftriaxone + vancomycin,IV,no change
+329,"fever, shortness of breath, cough, fatigue",pneumonia,levofloxacin,oral,improved
+330,"cough, shortness of breath, fever",pneumonia,ceftriaxone,IV,improved
+331,"skin redness, swelling, warmth, fever",cellulitis,cephalexin,oral,improved
+332,"stiff neck, headache, sensitivity to light, fever",meningitis,ampicillin,IV,improved
+333,"high heart rate, chills",sepsis,vancomycin + cefepime,IV,no change
+334,"frequent urination, lower abdominal pain, back pain, fever",UTI,ciprofloxacin,oral,worsened
+335,"fever, chills, rapid breathing, low blood pressure",sepsis,meropenem,IV,worsened
+336,"confusion, fever, chills, low blood pressure",sepsis,piperacillin-tazobactam,oral,improved
+337,"fever, low blood pressure, weakness",bacteremia,vancomycin,IV,improved
+338,"chills, confusion, fever, rapid breathing",sepsis,meropenem,oral,improved
+339,"cough, chest pain, fever, fatigue",pneumonia,levofloxacin,IV,improved
+340,"fever, skin redness, swelling, pain",cellulitis,clindamycin,oral,no change
+341,"fever, chest pain",pneumonia,ceftriaxone,oral,worsened
+342,"cough, chest pain",pneumonia,azithromycin,oral,improved
+343,"cough, fatigue, fever",pneumonia,ceftriaxone,oral,improved
+344,"pain, swelling, warmth, fever",cellulitis,cephalexin,IV,improved
+345,"rapid breathing, high heart rate, confusion",sepsis,vancomycin + cefepime,IV,improved
+346,"pain, warmth, fever",cellulitis,dicloxacillin,IV,improved
+347,"nausea, stiff neck, fever",meningitis,ampicillin,oral,improved
+348,"fever, fatigue",pneumonia,ceftriaxone,IV,improved
+349,"back pain, fever",UTI,trimethoprim-sulfamethoxazole,IV,worsened
+350,"warmth, fever, swelling, pain",cellulitis,clindamycin,IV,improved
+351,"fever, warmth, skin redness, swelling",cellulitis,dicloxacillin,oral,no change
+352,"chest pain, fever, cough",pneumonia,azithromycin,IV,no change
+353,"pain, fever, skin redness, swelling",cellulitis,clindamycin,oral,no change
+354,"chills, rapid breathing, low blood pressure",sepsis,meropenem,oral,improved
+355,"fever, weakness, chills, confusion",bacteremia,piperacillin-tazobactam,IV,no change
+356,"skin redness, fever, swelling, pain",cellulitis,dicloxacillin,oral,improved
+357,"warmth, fever, pain",cellulitis,clindamycin,IV,improved
+358,"fever, fatigue, cough",pneumonia,levofloxacin,IV,worsened
+359,"fatigue, cough, chest pain, fever",pneumonia,azithromycin,IV,worsened
+360,"fever, warmth, skin redness, swelling",cellulitis,clindamycin,oral,worsened
+361,"fever, frequent urination, lower abdominal pain, painful urination",UTI,nitrofurantoin,oral,no change
+362,"fever, stiff neck, nausea",meningitis,meropenem,IV,improved
+363,"confusion, low blood pressure",sepsis,piperacillin-tazobactam,IV,worsened
+364,"fever, chills, rapid breathing, low blood pressure",sepsis,piperacillin-tazobactam,oral,improved
+365,"confusion, high heart rate, low blood pressure, rapid breathing",sepsis,piperacillin-tazobactam,IV,no change
+366,"low blood pressure, confusion, chills",bacteremia,vancomycin,oral,improved
+367,"stiff neck, fever, sensitivity to light, headache",meningitis,meropenem,IV,improved
+368,"confusion, chills, low blood pressure, weakness",bacteremia,piperacillin-tazobactam,IV,no change
+369,"fever, shortness of breath",pneumonia,levofloxacin,IV,worsened
+370,"headache, nausea, fever",meningitis,ampicillin,oral,no change
+371,"chest pain, fatigue, shortness of breath",pneumonia,ceftriaxone,oral,worsened
+372,"fever, pain, warmth, skin redness",cellulitis,cephalexin,IV,improved
+373,"sensitivity to light, fever",meningitis,ampicillin,IV,worsened
+374,"nausea, sensitivity to light, fever",meningitis,ampicillin,IV,improved
+375,"fever, rapid breathing",sepsis,piperacillin-tazobactam,oral,no change
+376,"chills, low blood pressure, high heart rate, confusion",sepsis,meropenem,oral,improved
+377,"skin redness, pain",cellulitis,dicloxacillin,IV,improved
+378,"fever, cough",pneumonia,levofloxacin,IV,improved
+379,"pain, fever, skin redness",cellulitis,cephalexin,oral,improved
+380,"confusion, rapid breathing, high heart rate",sepsis,vancomycin + cefepime,IV,improved
+381,"warmth, skin redness, pain, fever",cellulitis,clindamycin,oral,improved
+382,"sensitivity to light, stiff neck, headache, nausea",meningitis,ceftriaxone + vancomycin,IV,improved
+383,"chills, weakness, confusion",bacteremia,piperacillin-tazobactam,oral,improved
+384,"rapid breathing, fever, high heart rate, confusion",sepsis,piperacillin-tazobactam,oral,improved
+385,"back pain, fever, painful urination",UTI,nitrofurantoin,IV,improved
+386,"swelling, pain",cellulitis,clindamycin,IV,fatal
+387,"high heart rate, rapid breathing, chills",sepsis,vancomycin + cefepime,IV,worsened
+388,"low blood pressure, fever, weakness, chills",bacteremia,vancomycin,IV,improved
+389,"warmth, pain, fever, swelling",cellulitis,cephalexin,IV,improved
+390,"fever, painful urination, frequent urination",UTI,trimethoprim-sulfamethoxazole,oral,improved
+391,"rapid breathing, chills",sepsis,vancomycin + cefepime,IV,improved
+392,"chest pain, cough, fatigue",pneumonia,levofloxacin,oral,no change
+393,"painful urination, fever, frequent urination, back pain",UTI,trimethoprim-sulfamethoxazole,IV,worsened
+394,"chest pain, shortness of breath",pneumonia,levofloxacin,IV,worsened
+395,"shortness of breath, chest pain, fever",pneumonia,ceftriaxone,IV,worsened
+396,"back pain, frequent urination",UTI,trimethoprim-sulfamethoxazole,oral,no change
+397,"fever, weakness",bacteremia,vancomycin,IV,worsened
+398,"lower abdominal pain, fever",UTI,ciprofloxacin,IV,no change
+399,"painful urination, fever, lower abdominal pain",UTI,ciprofloxacin,oral,worsened
+400,"cough, shortness of breath, chest pain, fever",pneumonia,azithromycin,oral,improved
+401,"cough, chest pain, fatigue",pneumonia,ceftriaxone,oral,worsened
+402,"warmth, skin redness, pain, swelling",cellulitis,dicloxacillin,IV,no change
+403,"frequent urination, painful urination, lower abdominal pain, fever",UTI,ciprofloxacin,oral,worsened
+404,"frequent urination, back pain",UTI,nitrofurantoin,oral,no change
+405,"pain, skin redness",cellulitis,cephalexin,IV,worsened
+406,"fever, stiff neck",meningitis,meropenem,oral,improved
+407,"shortness of breath, chest pain, fatigue",pneumonia,levofloxacin,IV,improved
+408,"headache, sensitivity to light, nausea, stiff neck",meningitis,meropenem,oral,improved
+409,"confusion, high heart rate",sepsis,vancomycin + cefepime,IV,improved
+410,"back pain, painful urination, lower abdominal pain, frequent urination",UTI,ciprofloxacin,oral,improved
+411,"chest pain, shortness of breath, fever",pneumonia,ceftriaxone,IV,improved
+412,"skin redness, pain",cellulitis,cephalexin,IV,improved
+413,"nausea, stiff neck, headache",meningitis,meropenem,oral,improved
+414,"painful urination, frequent urination, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+415,"lower abdominal pain, back pain, frequent urination",UTI,nitrofurantoin,IV,fatal
+416,"swelling, fever",cellulitis,dicloxacillin,IV,improved
+417,"chills, low blood pressure",bacteremia,ceftriaxone,IV,worsened
+418,"chills, fever",sepsis,piperacillin-tazobactam,oral,improved
+419,"chills, high heart rate",sepsis,piperacillin-tazobactam,IV,no change
+420,"swelling, warmth, fever, pain",cellulitis,dicloxacillin,oral,worsened
+421,"headache, fever, sensitivity to light, nausea",meningitis,meropenem,IV,improved
+422,"stiff neck, fever",meningitis,ampicillin,oral,no change
+423,"fever, swelling",cellulitis,cephalexin,IV,no change
+424,"painful urination, lower abdominal pain, fever",UTI,ciprofloxacin,oral,no change
+425,"chills, rapid breathing",sepsis,vancomycin + cefepime,oral,fatal
+426,"swelling, pain",cellulitis,dicloxacillin,oral,improved
+427,"chest pain, shortness of breath, cough, fatigue",pneumonia,ceftriaxone,oral,worsened
+428,"fatigue, chest pain, shortness of breath",pneumonia,levofloxacin,IV,fatal
+429,"chills, weakness, low blood pressure",bacteremia,ceftriaxone,IV,improved
+430,"swelling, pain, fever",cellulitis,clindamycin,oral,worsened
+431,"fatigue, chest pain",pneumonia,azithromycin,oral,improved
+432,"cough, fatigue",pneumonia,azithromycin,oral,improved
+433,"confusion, fever, weakness",bacteremia,vancomycin,oral,worsened
+434,"shortness of breath, fatigue, fever, chest pain",pneumonia,ceftriaxone,IV,improved
+435,"rapid breathing, low blood pressure, fever, high heart rate",sepsis,piperacillin-tazobactam,oral,improved
+436,"fever, pain",cellulitis,clindamycin,IV,worsened
+437,"fever, cough, shortness of breath, chest pain",pneumonia,azithromycin,IV,improved
+438,"fever, shortness of breath",pneumonia,levofloxacin,oral,no change
+439,"swelling, pain, fever",cellulitis,clindamycin,IV,no change
+440,"nausea, fever, stiff neck",meningitis,meropenem,oral,improved
+441,"back pain, painful urination, lower abdominal pain",UTI,nitrofurantoin,oral,improved
+442,"fever, warmth, swelling, skin redness",cellulitis,cephalexin,oral,worsened
+443,"swelling, pain, fever, warmth",cellulitis,cephalexin,oral,improved
+444,"sensitivity to light, headache, stiff neck",meningitis,meropenem,oral,no change
+445,"fever, chills, confusion, low blood pressure",bacteremia,ceftriaxone,oral,improved
+446,"warmth, swelling",cellulitis,clindamycin,oral,no change
+447,"fatigue, fever",pneumonia,azithromycin,IV,worsened
+448,"shortness of breath, fever",pneumonia,levofloxacin,IV,fatal
+449,"lower abdominal pain, back pain, fever",UTI,nitrofurantoin,IV,improved
+450,"headache, nausea, sensitivity to light",meningitis,ceftriaxone + vancomycin,oral,improved
+451,"fever, low blood pressure",sepsis,piperacillin-tazobactam,IV,improved
+452,"low blood pressure, chills, confusion",bacteremia,piperacillin-tazobactam,IV,improved
+453,"fatigue, shortness of breath",pneumonia,ceftriaxone,oral,improved
+454,"chest pain, fatigue",pneumonia,levofloxacin,oral,improved
+455,"confusion, rapid breathing, fever",sepsis,vancomycin + cefepime,IV,improved
+456,"fever, high heart rate, confusion, rapid breathing",sepsis,meropenem,oral,no change
+457,"cough, fever, chest pain, shortness of breath",pneumonia,levofloxacin,oral,improved
+458,"fever, warmth, pain, swelling",cellulitis,cephalexin,oral,no change
+459,"chills, low blood pressure, high heart rate, confusion",sepsis,meropenem,IV,improved
+460,"rapid breathing, confusion, chills",sepsis,meropenem,IV,no change
+461,"frequent urination, lower abdominal pain, painful urination, back pain",UTI,trimethoprim-sulfamethoxazole,oral,no change
+462,"nausea, stiff neck, sensitivity to light, headache",meningitis,meropenem,IV,worsened
+463,"fever, painful urination, back pain",UTI,ciprofloxacin,IV,no change
+464,"low blood pressure, chills, high heart rate, rapid breathing",sepsis,vancomycin + cefepime,oral,improved
+465,"fatigue, fever, cough",pneumonia,ceftriaxone,IV,no change
+466,"sensitivity to light, fever, headache, nausea",meningitis,ampicillin,oral,worsened
+467,"skin redness, warmth, fever",cellulitis,dicloxacillin,oral,no change
+468,"lower abdominal pain, back pain",UTI,nitrofurantoin,IV,improved
+469,"sensitivity to light, headache, stiff neck, nausea",meningitis,ceftriaxone + vancomycin,IV,improved
+470,"low blood pressure, confusion, weakness, fever",bacteremia,ceftriaxone,oral,improved
+471,"stiff neck, headache, nausea",meningitis,meropenem,IV,worsened
+472,"chills, fever, weakness, low blood pressure",bacteremia,vancomycin,IV,improved
+473,"lower abdominal pain, fever",UTI,ciprofloxacin,IV,no change
+474,"fever, fatigue",pneumonia,azithromycin,oral,improved
+475,"stiff neck, fever",meningitis,ampicillin,IV,worsened
+476,"warmth, fever, pain",cellulitis,dicloxacillin,oral,improved
+477,"sensitivity to light, nausea, stiff neck",meningitis,meropenem,IV,improved
+478,"stiff neck, sensitivity to light, nausea, fever",meningitis,ceftriaxone + vancomycin,IV,no change
+479,"rapid breathing, fever, confusion, low blood pressure",sepsis,vancomycin + cefepime,IV,no change
+480,"warmth, swelling, skin redness, pain",cellulitis,dicloxacillin,oral,improved
+481,"headache, fever",meningitis,meropenem,oral,improved
+482,"sensitivity to light, fever, stiff neck",meningitis,ceftriaxone + vancomycin,IV,improved
+483,"cough, chest pain",pneumonia,levofloxacin,oral,no change
+484,"swelling, warmth, pain",cellulitis,cephalexin,oral,improved
+485,"chills, weakness, low blood pressure",bacteremia,ceftriaxone,IV,improved
+486,"fever, headache, sensitivity to light, stiff neck",meningitis,meropenem,oral,worsened
+487,"fever, pain",cellulitis,dicloxacillin,oral,improved
+488,"chills, low blood pressure, high heart rate",sepsis,vancomycin + cefepime,oral,improved
+489,"cough, shortness of breath, chest pain, fatigue",pneumonia,ceftriaxone,oral,improved
+490,"fever, chills",sepsis,piperacillin-tazobactam,oral,worsened
+491,"fever, confusion, low blood pressure, chills",sepsis,piperacillin-tazobactam,oral,improved
+492,"swelling, warmth",cellulitis,clindamycin,oral,worsened
+493,"rapid breathing, confusion, fever",sepsis,meropenem,oral,improved
+494,"chest pain, cough, fatigue, fever",pneumonia,azithromycin,oral,improved
+495,"painful urination, fever",UTI,nitrofurantoin,oral,improved
+496,"back pain, lower abdominal pain, frequent urination, painful urination",UTI,trimethoprim-sulfamethoxazole,IV,improved
+497,"low blood pressure, weakness, confusion, chills",bacteremia,ceftriaxone,oral,no change
+498,"frequent urination, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,oral,improved
+499,"swelling, fever",cellulitis,clindamycin,IV,improved
+500,"nausea, sensitivity to light, stiff neck, fever",meningitis,meropenem,IV,improved
+501,"confusion, low blood pressure, chills, weakness",bacteremia,vancomycin,oral,improved
+502,"skin redness, swelling, fever, pain",cellulitis,clindamycin,IV,improved
+503,"warmth, pain, skin redness",cellulitis,clindamycin,IV,no change
+504,"painful urination, back pain",UTI,ciprofloxacin,IV,improved
+505,"fever, swelling, pain",cellulitis,dicloxacillin,IV,improved
+506,"skin redness, warmth",cellulitis,cephalexin,oral,improved
+507,"rapid breathing, high heart rate, fever",sepsis,piperacillin-tazobactam,IV,improved
+508,"fever, confusion, chills, weakness",bacteremia,vancomycin,oral,improved
+509,"fever, cough",pneumonia,azithromycin,IV,fatal
+510,"swelling, skin redness",cellulitis,cephalexin,oral,improved
+511,"headache, stiff neck, nausea, sensitivity to light",meningitis,meropenem,IV,improved
+512,"fatigue, cough",pneumonia,ceftriaxone,IV,no change
+513,"low blood pressure, confusion",sepsis,meropenem,IV,improved
+514,"stiff neck, sensitivity to light",meningitis,meropenem,oral,no change
+515,"chills, low blood pressure",sepsis,meropenem,oral,improved
+516,"chest pain, shortness of breath",pneumonia,levofloxacin,oral,improved
+517,"fatigue, shortness of breath, fever, chest pain",pneumonia,azithromycin,oral,no change
+518,"fever, chest pain, fatigue, shortness of breath",pneumonia,levofloxacin,oral,improved
+519,"fever, warmth, pain",cellulitis,cephalexin,IV,improved
+520,"nausea, sensitivity to light, headache, stiff neck",meningitis,ceftriaxone + vancomycin,IV,improved
+521,"swelling, fever, pain",cellulitis,cephalexin,oral,no change
+522,"weakness, fever, confusion, low blood pressure",bacteremia,ceftriaxone,IV,improved
+523,"frequent urination, back pain, lower abdominal pain",UTI,ciprofloxacin,oral,no change
+524,"cough, shortness of breath, fatigue, fever",pneumonia,ceftriaxone,IV,improved
+525,"fatigue, shortness of breath, cough, fever",pneumonia,ceftriaxone,IV,improved
+526,"nausea, stiff neck, sensitivity to light, fever",meningitis,ampicillin,oral,no change
+527,"fever, skin redness",cellulitis,clindamycin,oral,worsened
+528,"nausea, headache, sensitivity to light",meningitis,ampicillin,oral,no change
+529,"shortness of breath, fatigue, fever, chest pain",pneumonia,azithromycin,oral,no change
+530,"fever, high heart rate, confusion, rapid breathing",sepsis,meropenem,IV,no change
+531,"cough, fatigue",pneumonia,azithromycin,IV,fatal
+532,"stiff neck, sensitivity to light, nausea, fever",meningitis,ampicillin,IV,no change
+533,"skin redness, swelling, pain, warmth",cellulitis,cephalexin,oral,improved
+534,"lower abdominal pain, frequent urination",UTI,ciprofloxacin,IV,improved
+535,"low blood pressure, confusion, weakness",bacteremia,ceftriaxone,oral,worsened
+536,"fever, confusion",sepsis,meropenem,IV,fatal
+537,"rapid breathing, high heart rate",sepsis,piperacillin-tazobactam,oral,no change
+538,"shortness of breath, chest pain, fatigue, cough",pneumonia,azithromycin,oral,no change
+539,"painful urination, frequent urination, fever, lower abdominal pain",UTI,ciprofloxacin,IV,fatal
+540,"fever, sensitivity to light, headache",meningitis,ceftriaxone + vancomycin,oral,improved
+541,"fever, pain, swelling",cellulitis,dicloxacillin,oral,no change
+542,"skin redness, pain, swelling",cellulitis,cephalexin,IV,improved
+543,"back pain, frequent urination, fever, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+544,"confusion, low blood pressure, rapid breathing",sepsis,piperacillin-tazobactam,IV,no change
+545,"chills, high heart rate, low blood pressure",sepsis,piperacillin-tazobactam,IV,improved
+546,"pain, skin redness",cellulitis,cephalexin,oral,improved
+547,"swelling, pain",cellulitis,dicloxacillin,IV,improved
+548,"fatigue, fever, cough",pneumonia,levofloxacin,IV,improved
+549,"skin redness, swelling, warmth, fever",cellulitis,clindamycin,oral,improved
+550,"fever, back pain, lower abdominal pain, frequent urination",UTI,nitrofurantoin,IV,improved
+551,"weakness, low blood pressure, confusion",bacteremia,vancomycin,oral,worsened
+552,"warmth, skin redness, fever",cellulitis,cephalexin,oral,improved
+553,"chills, high heart rate",sepsis,meropenem,IV,worsened
+554,"fever, painful urination, frequent urination, back pain",UTI,trimethoprim-sulfamethoxazole,IV,no change
+555,"nausea, headache, sensitivity to light, fever",meningitis,ceftriaxone + vancomycin,oral,worsened
+556,"chills, confusion",sepsis,vancomycin + cefepime,oral,improved
+557,"fever, lower abdominal pain, frequent urination",UTI,trimethoprim-sulfamethoxazole,oral,improved
+558,"confusion, chills, high heart rate, rapid breathing",sepsis,meropenem,IV,improved
+559,"low blood pressure, chills, fever, rapid breathing",sepsis,piperacillin-tazobactam,oral,improved
+560,"frequent urination, painful urination, fever",UTI,ciprofloxacin,IV,worsened
+561,"rapid breathing, confusion",sepsis,meropenem,IV,improved
+562,"chills, rapid breathing, high heart rate, confusion",sepsis,piperacillin-tazobactam,oral,improved
+563,"swelling, pain, warmth",cellulitis,dicloxacillin,IV,improved
+564,"skin redness, swelling, fever",cellulitis,dicloxacillin,oral,improved
+565,"frequent urination, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,oral,improved
+566,"chills, confusion",bacteremia,ceftriaxone,oral,improved
+567,"fever, skin redness, warmth",cellulitis,cephalexin,oral,improved
+568,"lower abdominal pain, painful urination",UTI,trimethoprim-sulfamethoxazole,oral,improved
+569,"fever, frequent urination",UTI,nitrofurantoin,IV,improved
+570,"painful urination, lower abdominal pain, fever",UTI,trimethoprim-sulfamethoxazole,IV,no change
+571,"skin redness, fever, pain, warmth",cellulitis,dicloxacillin,oral,improved
+572,"fever, confusion, weakness",bacteremia,vancomycin,IV,no change
+573,"cough, shortness of breath",pneumonia,azithromycin,oral,worsened
+574,"headache, stiff neck, sensitivity to light",meningitis,meropenem,IV,no change
+575,"fever, chest pain, cough, fatigue",pneumonia,azithromycin,oral,improved
+576,"frequent urination, back pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+577,"lower abdominal pain, frequent urination, fever, back pain",UTI,ciprofloxacin,IV,no change
+578,"fever, skin redness, swelling",cellulitis,dicloxacillin,oral,no change
+579,"fever, pain",cellulitis,dicloxacillin,IV,no change
+580,"sensitivity to light, stiff neck, nausea, fever",meningitis,meropenem,oral,no change
+581,"fever, painful urination, lower abdominal pain, frequent urination",UTI,ciprofloxacin,oral,improved
+582,"fever, chills",sepsis,meropenem,IV,improved
+583,"shortness of breath, fever",pneumonia,ceftriaxone,oral,improved
+584,"low blood pressure, confusion",bacteremia,piperacillin-tazobactam,IV,improved
+585,"swelling, fever",cellulitis,clindamycin,oral,no change
+586,"weakness, low blood pressure, fever, confusion",bacteremia,piperacillin-tazobactam,IV,no change
+587,"confusion, fever, chills, weakness",bacteremia,vancomycin,IV,improved
+588,"painful urination, fever, back pain, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+589,"fever, sensitivity to light, stiff neck",meningitis,ceftriaxone + vancomycin,IV,worsened
+590,"fever, weakness",bacteremia,vancomycin,oral,worsened
+591,"high heart rate, rapid breathing, confusion, low blood pressure",sepsis,vancomycin + cefepime,oral,improved
+592,"fatigue, chest pain",pneumonia,ceftriaxone,oral,improved
+593,"frequent urination, painful urination, fever, back pain",UTI,nitrofurantoin,oral,improved
+594,"shortness of breath, fatigue, chest pain, cough",pneumonia,azithromycin,IV,improved
+595,"skin redness, warmth, pain, fever",cellulitis,clindamycin,oral,improved
+596,"frequent urination, lower abdominal pain",UTI,nitrofurantoin,IV,improved
+597,"cough, fever",pneumonia,azithromycin,oral,improved
+598,"skin redness, pain",cellulitis,cephalexin,oral,no change
+599,"sensitivity to light, nausea, stiff neck, headache",meningitis,ceftriaxone + vancomycin,IV,improved
+600,"low blood pressure, chills, fever",bacteremia,ceftriaxone,oral,fatal
+601,"fever, high heart rate, rapid breathing",sepsis,vancomycin + cefepime,oral,worsened
+602,"headache, stiff neck, nausea, fever",meningitis,ceftriaxone + vancomycin,IV,improved
+603,"low blood pressure, confusion, chills, fever",bacteremia,ceftriaxone,IV,improved
+604,"fatigue, fever",pneumonia,ceftriaxone,oral,improved
+605,"chest pain, cough, fatigue",pneumonia,azithromycin,IV,improved
+606,"frequent urination, painful urination, fever, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,IV,no change
+607,"swelling, fever, pain, skin redness",cellulitis,clindamycin,oral,no change
+608,"fever, chest pain, cough",pneumonia,azithromycin,IV,improved
+609,"fever, shortness of breath, fatigue, chest pain",pneumonia,ceftriaxone,IV,improved
+610,"nausea, sensitivity to light",meningitis,ceftriaxone + vancomycin,oral,no change
+611,"fatigue, shortness of breath",pneumonia,levofloxacin,IV,improved
+612,"fever, frequent urination, lower abdominal pain",UTI,nitrofurantoin,oral,no change
+613,"swelling, skin redness, warmth",cellulitis,clindamycin,oral,improved
+614,"sensitivity to light, nausea",meningitis,meropenem,oral,improved
+615,"shortness of breath, chest pain, cough",pneumonia,ceftriaxone,IV,improved
+616,"chills, weakness, fever",bacteremia,vancomycin,IV,improved
+617,"fever, painful urination",UTI,trimethoprim-sulfamethoxazole,IV,improved
+618,"stiff neck, headache",meningitis,ampicillin,oral,improved
+619,"fever, swelling, pain, skin redness",cellulitis,clindamycin,IV,improved
+620,"lower abdominal pain, fever",UTI,nitrofurantoin,oral,improved
+621,"stiff neck, fever, sensitivity to light, nausea",meningitis,ampicillin,IV,worsened
+622,"high heart rate, confusion",sepsis,vancomycin + cefepime,oral,worsened
+623,"pain, skin redness, warmth",cellulitis,clindamycin,oral,no change
+624,"low blood pressure, rapid breathing, confusion",sepsis,piperacillin-tazobactam,oral,improved
+625,"nausea, headache, sensitivity to light",meningitis,ceftriaxone + vancomycin,IV,improved
+626,"skin redness, fever",cellulitis,cephalexin,IV,improved
+627,"chest pain, fever, fatigue",pneumonia,azithromycin,IV,fatal
+628,"fever, low blood pressure",bacteremia,vancomycin,oral,improved
+629,"weakness, chills, fever, confusion",bacteremia,piperacillin-tazobactam,IV,improved
+630,"chills, confusion, low blood pressure, weakness",bacteremia,piperacillin-tazobactam,oral,improved
+631,"rapid breathing, confusion, fever",sepsis,piperacillin-tazobactam,IV,no change
+632,"weakness, low blood pressure, fever",bacteremia,piperacillin-tazobactam,oral,worsened
+633,"back pain, frequent urination, lower abdominal pain, painful urination",UTI,ciprofloxacin,IV,improved
+634,"lower abdominal pain, back pain",UTI,trimethoprim-sulfamethoxazole,IV,worsened
+635,"fever, swelling, pain",cellulitis,dicloxacillin,oral,improved
+636,"fever, stiff neck, headache",meningitis,meropenem,IV,worsened
+637,"shortness of breath, fatigue",pneumonia,levofloxacin,IV,improved
+638,"rapid breathing, fever, chills, high heart rate",sepsis,meropenem,IV,improved
+639,"skin redness, swelling, pain",cellulitis,dicloxacillin,IV,improved
+640,"frequent urination, painful urination, fever",UTI,trimethoprim-sulfamethoxazole,IV,improved
+641,"chills, confusion, low blood pressure",bacteremia,vancomycin,IV,worsened
+642,"confusion, weakness, chills",bacteremia,vancomycin,oral,worsened
+643,"chills, weakness, confusion, low blood pressure",bacteremia,vancomycin,oral,improved
+644,"confusion, low blood pressure, weakness",bacteremia,piperacillin-tazobactam,IV,improved
+645,"pain, warmth",cellulitis,dicloxacillin,oral,improved
+646,"confusion, fever, chills, rapid breathing",sepsis,vancomycin + cefepime,oral,no change
+647,"confusion, high heart rate",sepsis,piperacillin-tazobactam,oral,improved
+648,"swelling, skin redness, pain, warmth",cellulitis,dicloxacillin,oral,improved
+649,"shortness of breath, cough, chest pain, fever",pneumonia,levofloxacin,oral,worsened
+650,"fever, weakness, confusion",bacteremia,ceftriaxone,oral,fatal
+651,"fever, pain",cellulitis,dicloxacillin,IV,improved
+652,"shortness of breath, fatigue",pneumonia,levofloxacin,IV,no change
+653,"lower abdominal pain, frequent urination",UTI,trimethoprim-sulfamethoxazole,oral,worsened
+654,"confusion, chills",sepsis,meropenem,IV,no change
+655,"fatigue, fever, shortness of breath, cough",pneumonia,ceftriaxone,IV,improved
+656,"chills, rapid breathing",sepsis,vancomycin + cefepime,oral,no change
+657,"stiff neck, headache, fever, nausea",meningitis,meropenem,IV,improved
+658,"pain, fever",cellulitis,dicloxacillin,oral,improved
+659,"confusion, rapid breathing",sepsis,vancomycin + cefepime,oral,fatal
+660,"chills, low blood pressure, weakness, confusion",bacteremia,vancomycin,oral,improved
+661,"frequent urination, back pain, painful urination",UTI,trimethoprim-sulfamethoxazole,oral,no change
+662,"shortness of breath, fever, fatigue",pneumonia,azithromycin,IV,improved
+663,"fever, weakness, chills",bacteremia,piperacillin-tazobactam,IV,no change
+664,"cough, chest pain, fever, shortness of breath",pneumonia,levofloxacin,oral,worsened
+665,"frequent urination, back pain, fever",UTI,nitrofurantoin,oral,improved
+666,"warmth, fever",cellulitis,clindamycin,oral,no change
+667,"fever, chest pain, cough, shortness of breath",pneumonia,azithromycin,IV,no change
+668,"nausea, sensitivity to light",meningitis,ceftriaxone + vancomycin,oral,improved
+669,"confusion, high heart rate, rapid breathing, fever",sepsis,piperacillin-tazobactam,IV,improved
+670,"fever, lower abdominal pain, painful urination",UTI,nitrofurantoin,oral,improved
+671,"fatigue, fever, cough, shortness of breath",pneumonia,ceftriaxone,IV,improved
+672,"fever, swelling, pain",cellulitis,dicloxacillin,oral,improved
+673,"weakness, fever",bacteremia,ceftriaxone,oral,improved
+674,"warmth, skin redness, pain",cellulitis,cephalexin,IV,improved
+675,"painful urination, lower abdominal pain",UTI,nitrofurantoin,oral,fatal
+676,"nausea, sensitivity to light, headache, fever",meningitis,ceftriaxone + vancomycin,oral,no change
+677,"chills, low blood pressure, confusion, fever",bacteremia,piperacillin-tazobactam,IV,improved
+678,"nausea, fever, sensitivity to light",meningitis,meropenem,IV,worsened
+679,"frequent urination, painful urination, back pain",UTI,ciprofloxacin,IV,improved
+680,"fatigue, chest pain, cough",pneumonia,levofloxacin,IV,improved
+681,"sensitivity to light, stiff neck",meningitis,ceftriaxone + vancomycin,IV,improved
+682,"sensitivity to light, fever",meningitis,meropenem,IV,no change
+683,"weakness, confusion, chills, low blood pressure",bacteremia,piperacillin-tazobactam,IV,fatal
+684,"swelling, warmth, fever, pain",cellulitis,cephalexin,IV,improved
+685,"shortness of breath, cough, chest pain, fever",pneumonia,ceftriaxone,IV,improved
+686,"lower abdominal pain, back pain, painful urination, fever",UTI,nitrofurantoin,oral,improved
+687,"stiff neck, nausea",meningitis,ampicillin,IV,improved
+688,"pain, skin redness",cellulitis,clindamycin,oral,improved
+689,"fever, low blood pressure",sepsis,vancomycin + cefepime,IV,no change
+690,"lower abdominal pain, frequent urination, painful urination",UTI,trimethoprim-sulfamethoxazole,IV,improved
+691,"frequent urination, painful urination, back pain, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,oral,no change
+692,"lower abdominal pain, frequent urination",UTI,trimethoprim-sulfamethoxazole,oral,improved
+693,"low blood pressure, chills, confusion, high heart rate",sepsis,piperacillin-tazobactam,oral,worsened
+694,"fever, lower abdominal pain, painful urination, back pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+695,"chest pain, shortness of breath, cough, fever",pneumonia,levofloxacin,oral,no change
+696,"painful urination, fever, back pain",UTI,trimethoprim-sulfamethoxazole,oral,worsened
+697,"pain, warmth, swelling, fever",cellulitis,clindamycin,IV,fatal
+698,"nausea, stiff neck, headache, sensitivity to light",meningitis,meropenem,IV,improved
+699,"chest pain, fever, fatigue, shortness of breath",pneumonia,levofloxacin,oral,improved
+700,"fever, swelling, skin redness",cellulitis,dicloxacillin,oral,no change
+701,"nausea, headache, sensitivity to light, stiff neck",meningitis,ceftriaxone + vancomycin,oral,improved
+702,"confusion, low blood pressure, weakness",bacteremia,piperacillin-tazobactam,IV,fatal
+703,"fever, fatigue, chest pain",pneumonia,azithromycin,oral,worsened
+704,"chest pain, cough, fever",pneumonia,ceftriaxone,IV,improved
+705,"fever, fatigue",pneumonia,levofloxacin,oral,no change
+706,"low blood pressure, chills, weakness, fever",bacteremia,vancomycin,IV,worsened
+707,"fever, stiff neck, nausea, headache",meningitis,ceftriaxone + vancomycin,IV,fatal
+708,"back pain, lower abdominal pain, painful urination, fever",UTI,nitrofurantoin,oral,improved
+709,"fever, chest pain, fatigue",pneumonia,azithromycin,IV,no change
+710,"frequent urination, painful urination, fever",UTI,ciprofloxacin,oral,improved
+711,"fever, stiff neck, headache",meningitis,ceftriaxone + vancomycin,IV,improved
+712,"fever, cough, chest pain",pneumonia,azithromycin,IV,improved
+713,"fever, stiff neck",meningitis,ceftriaxone + vancomycin,IV,improved
+714,"fever, skin redness, pain",cellulitis,cephalexin,IV,worsened
+715,"low blood pressure, high heart rate, confusion, fever",sepsis,meropenem,oral,worsened
+716,"cough, fatigue, shortness of breath, chest pain",pneumonia,azithromycin,oral,no change
+717,"painful urination, back pain, fever",UTI,trimethoprim-sulfamethoxazole,oral,improved
+718,"sensitivity to light, nausea, headache, stiff neck",meningitis,meropenem,IV,improved
+719,"rapid breathing, high heart rate",sepsis,vancomycin + cefepime,IV,improved
+720,"nausea, fever, stiff neck, sensitivity to light",meningitis,ampicillin,oral,improved
+721,"low blood pressure, chills, rapid breathing",sepsis,piperacillin-tazobactam,IV,improved
+722,"high heart rate, confusion",sepsis,vancomycin + cefepime,oral,worsened
+723,"frequent urination, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,oral,no change
+724,"low blood pressure, weakness",bacteremia,ceftriaxone,IV,worsened
+725,"rapid breathing, chills, fever, confusion",sepsis,meropenem,IV,improved
+726,"low blood pressure, chills, rapid breathing",sepsis,meropenem,IV,improved
+727,"confusion, chills, fever, low blood pressure",bacteremia,ceftriaxone,IV,improved
+728,"fatigue, cough, shortness of breath, chest pain",pneumonia,ceftriaxone,IV,improved
+729,"rapid breathing, chills, confusion, low blood pressure",sepsis,meropenem,oral,improved
+730,"fever, stiff neck, nausea, sensitivity to light",meningitis,ceftriaxone + vancomycin,IV,worsened
+731,"fever, chest pain, cough, shortness of breath",pneumonia,levofloxacin,IV,improved
+732,"fever, fatigue, cough, chest pain",pneumonia,azithromycin,oral,worsened
+733,"fever, sensitivity to light, nausea, headache",meningitis,ceftriaxone + vancomycin,oral,no change
+734,"confusion, low blood pressure, fever, chills",sepsis,meropenem,IV,no change
+735,"low blood pressure, high heart rate, rapid breathing",sepsis,piperacillin-tazobactam,IV,improved
+736,"sensitivity to light, headache",meningitis,ceftriaxone + vancomycin,IV,no change
+737,"confusion, weakness, chills",bacteremia,piperacillin-tazobactam,oral,improved
+738,"confusion, weakness, chills, low blood pressure",bacteremia,piperacillin-tazobactam,oral,improved
+739,"fever, confusion, weakness, chills",bacteremia,vancomycin,IV,no change
+740,"weakness, fever, chills, confusion",bacteremia,vancomycin,oral,improved
+741,"cough, fever, chest pain, shortness of breath",pneumonia,azithromycin,oral,worsened
+742,"chest pain, cough, fever, shortness of breath",pneumonia,levofloxacin,oral,fatal
+743,"skin redness, pain, fever",cellulitis,dicloxacillin,IV,no change
+744,"painful urination, fever",UTI,trimethoprim-sulfamethoxazole,IV,worsened
+745,"fever, frequent urination, lower abdominal pain, back pain",UTI,ciprofloxacin,oral,worsened
+746,"fever, warmth, swelling, pain",cellulitis,dicloxacillin,oral,no change
+747,"lower abdominal pain, back pain",UTI,nitrofurantoin,IV,no change
+748,"lower abdominal pain, back pain, painful urination",UTI,trimethoprim-sulfamethoxazole,oral,no change
+749,"sensitivity to light, headache, stiff neck, fever",meningitis,meropenem,oral,improved
+750,"chest pain, fever, fatigue",pneumonia,ceftriaxone,IV,improved
+751,"cough, fever, fatigue",pneumonia,azithromycin,oral,no change
+752,"low blood pressure, fever, chills",bacteremia,piperacillin-tazobactam,oral,improved
+753,"nausea, sensitivity to light",meningitis,ceftriaxone + vancomycin,IV,no change
+754,"confusion, chills",bacteremia,ceftriaxone,IV,improved
+755,"cough, fever, shortness of breath, fatigue",pneumonia,ceftriaxone,IV,improved
+756,"weakness, low blood pressure, chills",bacteremia,piperacillin-tazobactam,IV,improved
+757,"fever, stiff neck, nausea",meningitis,ampicillin,oral,no change
+758,"headache, sensitivity to light",meningitis,meropenem,IV,improved
+759,"warmth, skin redness, swelling",cellulitis,cephalexin,oral,improved
+760,"high heart rate, rapid breathing",sepsis,piperacillin-tazobactam,IV,fatal
+761,"low blood pressure, chills, high heart rate, confusion",sepsis,vancomycin + cefepime,IV,improved
+762,"high heart rate, confusion, low blood pressure",sepsis,piperacillin-tazobactam,IV,improved
+763,"pain, fever, swelling",cellulitis,clindamycin,oral,improved
+764,"chills, confusion",bacteremia,vancomycin,oral,improved
+765,"skin redness, warmth, swelling, fever",cellulitis,clindamycin,oral,improved
+766,"swelling, fever, pain",cellulitis,clindamycin,oral,worsened
+767,"weakness, low blood pressure, confusion, chills",bacteremia,piperacillin-tazobactam,IV,improved
+768,"confusion, rapid breathing",sepsis,piperacillin-tazobactam,IV,no change
+769,"fever, sensitivity to light, headache",meningitis,meropenem,oral,no change
+770,"cough, fever",pneumonia,azithromycin,IV,improved
+771,"swelling, fever, warmth, skin redness",cellulitis,dicloxacillin,IV,improved
+772,"swelling, skin redness, warmth",cellulitis,clindamycin,oral,worsened
+773,"swelling, pain, warmth, fever",cellulitis,clindamycin,oral,no change
+774,"fever, stiff neck",meningitis,ceftriaxone + vancomycin,IV,improved
+775,"weakness, low blood pressure, confusion, fever",bacteremia,vancomycin,oral,worsened
+776,"skin redness, warmth",cellulitis,clindamycin,oral,improved
+777,"fever, pain",cellulitis,cephalexin,oral,improved
+778,"painful urination, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,IV,worsened
+779,"rapid breathing, low blood pressure, high heart rate",sepsis,meropenem,oral,improved
+780,"fever, back pain, lower abdominal pain, painful urination",UTI,nitrofurantoin,oral,no change
+781,"fatigue, fever, cough, shortness of breath",pneumonia,azithromycin,IV,worsened
+782,"sensitivity to light, fever, headache, nausea",meningitis,ceftriaxone + vancomycin,IV,improved
+783,"lower abdominal pain, back pain",UTI,nitrofurantoin,oral,improved
+784,"confusion, chills, low blood pressure",bacteremia,piperacillin-tazobactam,IV,improved
+785,"fatigue, fever",pneumonia,ceftriaxone,oral,improved
+786,"fever, lower abdominal pain, frequent urination",UTI,nitrofurantoin,IV,improved
+787,"low blood pressure, confusion",bacteremia,vancomycin,oral,improved
+788,"cough, fever, shortness of breath, chest pain",pneumonia,ceftriaxone,IV,no change
+789,"fever, nausea",meningitis,ampicillin,IV,improved
+790,"skin redness, warmth",cellulitis,dicloxacillin,IV,improved
+791,"fever, warmth",cellulitis,clindamycin,IV,improved
+792,"fever, swelling, pain, warmth",cellulitis,dicloxacillin,oral,improved
+793,"fever, low blood pressure",sepsis,vancomycin + cefepime,IV,no change
+794,"fever, headache, sensitivity to light, stiff neck",meningitis,ampicillin,IV,improved
+795,"lower abdominal pain, back pain, fever",UTI,trimethoprim-sulfamethoxazole,IV,improved
+796,"fever, chest pain, cough",pneumonia,azithromycin,IV,improved
+797,"headache, sensitivity to light, fever, stiff neck",meningitis,meropenem,IV,worsened
+798,"painful urination, back pain, lower abdominal pain",UTI,nitrofurantoin,IV,improved
+799,"fever, stiff neck, headache, sensitivity to light",meningitis,ampicillin,oral,no change
+800,"nausea, sensitivity to light, fever, stiff neck",meningitis,ampicillin,IV,no change
+801,"painful urination, frequent urination",UTI,nitrofurantoin,IV,improved
+802,"fever, painful urination, back pain, lower abdominal pain",UTI,trimethoprim-sulfamethoxazole,IV,improved
+803,"fever, high heart rate",sepsis,vancomycin + cefepime,oral,improved
+804,"rapid breathing, confusion",sepsis,meropenem,IV,improved
+805,"low blood pressure, confusion",bacteremia,vancomycin,IV,no change
+806,"frequent urination, painful urination",UTI,trimethoprim-sulfamethoxazole,oral,improved
+807,"nausea, headache, stiff neck, sensitivity to light",meningitis,ceftriaxone + vancomycin,oral,improved
+808,"high heart rate, chills, confusion",sepsis,piperacillin-tazobactam,oral,no change
+809,"stiff neck, headache, sensitivity to light, nausea",meningitis,ampicillin,IV,improved
+810,"fever, weakness, low blood pressure",bacteremia,ceftriaxone,oral,improved
+811,"headache, fever, stiff neck, nausea",meningitis,ceftriaxone + vancomycin,IV,improved
+812,"fever, sensitivity to light, headache",meningitis,meropenem,IV,improved
+813,"headache, nausea, fever",meningitis,ampicillin,IV,no change
+814,"sensitivity to light, headache, stiff neck",meningitis,ampicillin,oral,improved
+815,"low blood pressure, high heart rate",sepsis,vancomycin + cefepime,oral,no change
+816,"cough, fever, chest pain",pneumonia,ceftriaxone,IV,improved
+817,"rapid breathing, high heart rate",sepsis,vancomycin + cefepime,oral,improved
+818,"chills, confusion",sepsis,meropenem,IV,no change
+819,"chills, confusion",sepsis,piperacillin-tazobactam,oral,worsened
+820,"shortness of breath, fever, fatigue, cough",pneumonia,azithromycin,IV,no change
+821,"cough, fatigue, chest pain",pneumonia,levofloxacin,IV,improved
+822,"chills, fever, confusion",bacteremia,vancomycin,oral,improved
+823,"warmth, skin redness, pain, fever",cellulitis,dicloxacillin,oral,improved
+824,"fever, warmth",cellulitis,cephalexin,IV,no change
+825,"back pain, painful urination",UTI,trimethoprim-sulfamethoxazole,IV,fatal
+826,"fatigue, chest pain, cough",pneumonia,levofloxacin,oral,improved
+827,"headache, sensitivity to light, nausea",meningitis,ampicillin,oral,worsened
+828,"sensitivity to light, fever",meningitis,ceftriaxone + vancomycin,oral,no change
+829,"fever, cough, fatigue, shortness of breath",pneumonia,ceftriaxone,oral,no change
+830,"pain, fever, skin redness, swelling",cellulitis,dicloxacillin,IV,worsened
+831,"fever, chills, rapid breathing, low blood pressure",sepsis,piperacillin-tazobactam,IV,improved
+832,"painful urination, fever, lower abdominal pain, back pain",UTI,trimethoprim-sulfamethoxazole,oral,improved
+833,"chest pain, cough, shortness of breath, fatigue",pneumonia,azithromycin,IV,improved
+834,"lower abdominal pain, fever, frequent urination",UTI,ciprofloxacin,IV,improved
+835,"lower abdominal pain, painful urination, fever, back pain",UTI,nitrofurantoin,oral,improved
+836,"nausea, sensitivity to light, stiff neck",meningitis,meropenem,IV,improved
+837,"low blood pressure, confusion, fever, rapid breathing",sepsis,meropenem,IV,improved
+838,"high heart rate, confusion",sepsis,piperacillin-tazobactam,oral,worsened
+839,"sensitivity to light, fever, headache, nausea",meningitis,ampicillin,IV,improved
+840,"high heart rate, rapid breathing, chills",sepsis,meropenem,IV,improved
+841,"lower abdominal pain, painful urination",UTI,ciprofloxacin,oral,improved
+842,"headache, fever, nausea, sensitivity to light",meningitis,ceftriaxone + vancomycin,IV,worsened
+843,"sensitivity to light, nausea",meningitis,ampicillin,IV,improved
+844,"chest pain, fatigue",pneumonia,ceftriaxone,IV,no change
+845,"sensitivity to light, nausea, headache",meningitis,meropenem,IV,improved
+846,"rapid breathing, fever, confusion",sepsis,vancomycin + cefepime,oral,no change
+847,"chest pain, fever, shortness of breath, fatigue",pneumonia,levofloxacin,IV,worsened
+848,"fever, warmth, pain, skin redness",cellulitis,dicloxacillin,oral,no change
+849,"headache, fever, stiff neck",meningitis,ampicillin,IV,improved
+850,"fever, fatigue, shortness of breath, cough",pneumonia,levofloxacin,IV,no change
+851,"confusion, high heart rate",sepsis,meropenem,IV,worsened
+852,"swelling, skin redness, warmth",cellulitis,dicloxacillin,oral,improved
+853,"fever, low blood pressure, confusion, high heart rate",sepsis,vancomycin + cefepime,oral,improved
+854,"chills, low blood pressure",sepsis,vancomycin + cefepime,oral,fatal
+855,"pain, skin redness, swelling",cellulitis,dicloxacillin,IV,improved
+856,"nausea, sensitivity to light",meningitis,meropenem,IV,no change
+857,"fatigue, chest pain, shortness of breath, fever",pneumonia,ceftriaxone,oral,improved
+858,"confusion, low blood pressure, fever, weakness",bacteremia,vancomycin,oral,worsened
+859,"stiff neck, nausea",meningitis,meropenem,IV,improved
+860,"cough, shortness of breath, fatigue",pneumonia,ceftriaxone,IV,improved
+861,"chills, fever, low blood pressure, confusion",bacteremia,piperacillin-tazobactam,IV,worsened
+862,"lower abdominal pain, back pain",UTI,ciprofloxacin,oral,no change
+863,"painful urination, frequent urination, fever",UTI,ciprofloxacin,oral,worsened
+864,"confusion, fever",sepsis,vancomycin + cefepime,oral,improved
+865,"painful urination, frequent urination, fever, lower abdominal pain",UTI,ciprofloxacin,oral,no change
+866,"shortness of breath, cough",pneumonia,levofloxacin,IV,improved
+867,"headache, sensitivity to light, nausea",meningitis,ampicillin,IV,no change
+868,"fever, high heart rate, rapid breathing, confusion",sepsis,vancomycin + cefepime,IV,no change
+869,"pain, warmth, fever, swelling",cellulitis,dicloxacillin,IV,improved
+870,"shortness of breath, fatigue, chest pain",pneumonia,ceftriaxone,oral,worsened
+871,"fever, pain, skin redness",cellulitis,cephalexin,oral,improved
+872,"chest pain, fatigue, cough",pneumonia,azithromycin,oral,no change
+873,"chest pain, fever",pneumonia,azithromycin,IV,fatal
+874,"chest pain, cough, fever, fatigue",pneumonia,azithromycin,IV,improved
+875,"back pain, painful urination, fever",UTI,nitrofurantoin,IV,no change
+876,"chest pain, shortness of breath",pneumonia,ceftriaxone,oral,no change
+877,"stiff neck, fever",meningitis,meropenem,oral,worsened
+878,"confusion, chills, high heart rate, low blood pressure",sepsis,meropenem,IV,improved
+879,"fever, low blood pressure, chills",sepsis,piperacillin-tazobactam,IV,no change
+880,"headache, fever, nausea, sensitivity to light",meningitis,ampicillin,oral,improved
+881,"painful urination, lower abdominal pain, back pain, fever",UTI,ciprofloxacin,IV,improved
+882,"headache, fever, nausea, stiff neck",meningitis,ceftriaxone + vancomycin,IV,fatal
+883,"back pain, painful urination, fever",UTI,ciprofloxacin,oral,improved
+884,"back pain, fever",UTI,trimethoprim-sulfamethoxazole,oral,worsened
+885,"fatigue, chest pain, shortness of breath",pneumonia,ceftriaxone,IV,no change
+886,"confusion, low blood pressure, weakness, chills",bacteremia,piperacillin-tazobactam,oral,improved
+887,"fatigue, cough, shortness of breath",pneumonia,azithromycin,IV,worsened
+888,"fatigue, shortness of breath",pneumonia,ceftriaxone,oral,worsened
+889,"pain, fever",cellulitis,clindamycin,IV,improved
+890,"chills, weakness, confusion, fever",bacteremia,ceftriaxone,oral,improved
+891,"skin redness, fever, swelling",cellulitis,clindamycin,oral,improved
+892,"skin redness, fever, warmth",cellulitis,cephalexin,oral,improved
+893,"fever, swelling, skin redness, warmth",cellulitis,clindamycin,IV,no change
+894,"frequent urination, lower abdominal pain, painful urination, back pain",UTI,trimethoprim-sulfamethoxazole,oral,no change
+895,"low blood pressure, confusion",bacteremia,vancomycin,IV,no change
+896,"shortness of breath, cough, fever",pneumonia,azithromycin,oral,improved
+897,"back pain, painful urination, fever",UTI,trimethoprim-sulfamethoxazole,IV,improved
+898,"chest pain, shortness of breath, cough",pneumonia,ceftriaxone,oral,improved
+899,"stiff neck, headache, sensitivity to light, fever",meningitis,ceftriaxone + vancomycin,oral,improved
+900,"nausea, sensitivity to light",meningitis,ceftriaxone + vancomycin,IV,improved
+901,"pain, swelling, warmth, skin redness",cellulitis,dicloxacillin,oral,no change
+902,"fever, nausea, sensitivity to light",meningitis,meropenem,IV,no change
+903,"fever, nausea",meningitis,ceftriaxone + vancomycin,IV,fatal
+904,"back pain, fever",UTI,trimethoprim-sulfamethoxazole,IV,no change
+905,"cough, fever",pneumonia,azithromycin,IV,worsened
+906,"chills, fever, confusion, weakness",bacteremia,piperacillin-tazobactam,IV,improved
+907,"low blood pressure, fever",bacteremia,piperacillin-tazobactam,IV,no change
+908,"fatigue, cough",pneumonia,ceftriaxone,IV,no change
+909,"confusion, low blood pressure, chills, fever",sepsis,meropenem,IV,improved
+910,"stiff neck, sensitivity to light, nausea, fever",meningitis,ceftriaxone + vancomycin,oral,improved
+911,"chills, rapid breathing",sepsis,piperacillin-tazobactam,IV,no change
+912,"chills, low blood pressure",bacteremia,vancomycin,oral,improved
+913,"skin redness, warmth, pain",cellulitis,dicloxacillin,oral,improved
+914,"warmth, swelling, skin redness",cellulitis,cephalexin,oral,no change
+915,"shortness of breath, chest pain, cough",pneumonia,ceftriaxone,IV,no change
+916,"low blood pressure, fever",sepsis,meropenem,oral,improved
+917,"low blood pressure, chills, high heart rate",sepsis,meropenem,IV,improved
+918,"confusion, chills",sepsis,piperacillin-tazobactam,oral,improved
+919,"warmth, pain",cellulitis,cephalexin,oral,no change
+920,"rapid breathing, confusion",sepsis,meropenem,oral,improved
+921,"chills, rapid breathing, low blood pressure, high heart rate",sepsis,meropenem,IV,improved
+922,"back pain, lower abdominal pain, frequent urination, painful urination",UTI,ciprofloxacin,oral,no change
+923,"chills, low blood pressure, fever",bacteremia,vancomycin,oral,no change
+924,"frequent urination, painful urination, lower abdominal pain",UTI,ciprofloxacin,oral,improved
+925,"cough, fatigue",pneumonia,ceftriaxone,IV,improved
+926,"frequent urination, fever",UTI,trimethoprim-sulfamethoxazole,oral,improved
+927,"high heart rate, confusion, low blood pressure, fever",sepsis,vancomycin + cefepime,IV,improved
+928,"high heart rate, fever, rapid breathing, low blood pressure",sepsis,vancomycin + cefepime,oral,improved
+929,"back pain, frequent urination, fever",UTI,ciprofloxacin,IV,no change
+930,"lower abdominal pain, back pain, fever, painful urination",UTI,nitrofurantoin,oral,improved
+931,"frequent urination, lower abdominal pain, painful urination",UTI,trimethoprim-sulfamethoxazole,oral,worsened
+932,"fever, skin redness, pain",cellulitis,clindamycin,IV,improved
+933,"sensitivity to light, nausea, fever, headache",meningitis,meropenem,oral,improved
+934,"shortness of breath, fever",pneumonia,ceftriaxone,oral,improved
+935,"low blood pressure, weakness",bacteremia,ceftriaxone,oral,worsened
+936,"painful urination, fever, back pain",UTI,ciprofloxacin,IV,improved
+937,"fatigue, chest pain",pneumonia,ceftriaxone,IV,improved
+938,"pain, warmth",cellulitis,cephalexin,oral,no change
+939,"headache, nausea, fever, stiff neck",meningitis,ceftriaxone + vancomycin,IV,improved
+940,"fever, painful urination, frequent urination, lower abdominal pain",UTI,ciprofloxacin,IV,improved
+941,"fever, chest pain, fatigue",pneumonia,levofloxacin,oral,improved
+942,"fever, low blood pressure, weakness",bacteremia,ceftriaxone,oral,improved
+943,"fever, back pain, painful urination, frequent urination",UTI,ciprofloxacin,oral,improved
+944,"fever, cough",pneumonia,azithromycin,oral,improved
+945,"fever, back pain, painful urination",UTI,trimethoprim-sulfamethoxazole,oral,improved
+946,"chills, fever, confusion, low blood pressure",sepsis,piperacillin-tazobactam,oral,improved
+947,"painful urination, fever",UTI,trimethoprim-sulfamethoxazole,IV,improved
+948,"nausea, sensitivity to light, headache, stiff neck",meningitis,ceftriaxone + vancomycin,IV,worsened
+949,"low blood pressure, high heart rate, confusion, fever",sepsis,vancomycin + cefepime,IV,improved
+950,"warmth, fever, pain",cellulitis,dicloxacillin,IV,improved
+951,"weakness, confusion, low blood pressure",bacteremia,ceftriaxone,oral,improved
+952,"skin redness, fever, warmth, pain",cellulitis,clindamycin,oral,improved
+953,"back pain, fever",UTI,nitrofurantoin,IV,improved
+954,"back pain, frequent urination, lower abdominal pain, fever",UTI,trimethoprim-sulfamethoxazole,IV,improved
+955,"stiff neck, headache, fever",meningitis,ampicillin,IV,improved
+956,"shortness of breath, fatigue, fever, cough",pneumonia,ceftriaxone,oral,worsened
+957,"pain, fever, skin redness, swelling",cellulitis,dicloxacillin,IV,fatal
+958,"swelling, warmth, fever, pain",cellulitis,dicloxacillin,IV,improved
+959,"cough, chest pain, shortness of breath, fever",pneumonia,ceftriaxone,IV,improved
+960,"warmth, swelling",cellulitis,dicloxacillin,IV,no change
+961,"fever, rapid breathing, confusion, high heart rate",sepsis,meropenem,IV,worsened
+962,"fever, rapid breathing",sepsis,meropenem,IV,no change
+963,"pain, skin redness",cellulitis,dicloxacillin,IV,improved
+964,"cough, chest pain",pneumonia,azithromycin,IV,improved
+965,"frequent urination, painful urination, fever",UTI,ciprofloxacin,oral,improved
+966,"frequent urination, fever, back pain",UTI,nitrofurantoin,oral,improved
+967,"pain, swelling",cellulitis,cephalexin,oral,improved
+968,"cough, fever, shortness of breath, fatigue",pneumonia,azithromycin,IV,worsened
+969,"chest pain, fever, shortness of breath, cough",pneumonia,azithromycin,oral,improved
+970,"fever, chest pain, shortness of breath",pneumonia,ceftriaxone,oral,no change
+971,"shortness of breath, fever, cough",pneumonia,ceftriaxone,oral,improved
+972,"shortness of breath, chest pain, cough",pneumonia,levofloxacin,IV,worsened
+973,"chills, fever, low blood pressure, confusion",sepsis,meropenem,IV,improved
+974,"skin redness, fever",cellulitis,cephalexin,IV,worsened
+975,"fever, low blood pressure",bacteremia,piperacillin-tazobactam,oral,worsened
+976,"lower abdominal pain, back pain",UTI,ciprofloxacin,oral,improved
+977,"swelling, pain, fever",cellulitis,dicloxacillin,IV,improved
+978,"weakness, low blood pressure",bacteremia,piperacillin-tazobactam,oral,improved
+979,"rapid breathing, fever, chills, high heart rate",sepsis,meropenem,oral,improved
+980,"chills, fever, high heart rate",sepsis,piperacillin-tazobactam,IV,worsened
+981,"fever, chills, low blood pressure",sepsis,meropenem,IV,worsened
+982,"skin redness, swelling, fever, pain",cellulitis,cephalexin,IV,improved
+983,"low blood pressure, high heart rate",sepsis,vancomycin + cefepime,IV,worsened
+984,"fever, weakness, chills, confusion",bacteremia,ceftriaxone,oral,no change
+985,"shortness of breath, fever, cough",pneumonia,azithromycin,IV,improved
+986,"fever, back pain, lower abdominal pain, painful urination",UTI,trimethoprim-sulfamethoxazole,oral,worsened
+987,"sensitivity to light, fever",meningitis,meropenem,IV,improved
+988,"chills, high heart rate",sepsis,meropenem,oral,worsened
+989,"low blood pressure, chills, fever, weakness",bacteremia,piperacillin-tazobactam,IV,improved
+990,"chest pain, fever, cough, shortness of breath",pneumonia,ceftriaxone,IV,improved
+991,"chest pain, cough",pneumonia,ceftriaxone,oral,improved
+992,"chest pain, fever, fatigue, cough",pneumonia,azithromycin,IV,improved
+993,"shortness of breath, cough",pneumonia,ceftriaxone,IV,no change
+994,"cough, fatigue",pneumonia,ceftriaxone,oral,improved
+995,"confusion, weakness, chills",bacteremia,ceftriaxone,IV,improved
+996,"back pain, lower abdominal pain, frequent urination, painful urination",UTI,nitrofurantoin,IV,worsened
+997,"fever, painful urination, back pain, frequent urination",UTI,ciprofloxacin,IV,improved
+998,"confusion, high heart rate",sepsis,meropenem,oral,fatal
+999,"fever, frequent urination, lower abdominal pain, painful urination",UTI,trimethoprim-sulfamethoxazole,IV,improved
+1000,"fatigue, fever, cough, chest pain",pneumonia,ceftriaxone,IV,improved
